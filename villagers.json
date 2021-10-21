@@ -19939,5 +19939,110 @@
       },
       "house": "https://acnhcdn.com/drivesync/render/houses/wol12_387_Audie.png",
       "colors": "vert & blanc"
+    },
+    {
+      "id": 392,
+      "name": {
+        "name-USen": "Étoile",
+        "name-EUfr": "Étoile"
+      },
+      "personality": "Normale",
+      "birthday": "25/12",
+      "species": "Brebis",
+      "gender": "Female",
+      "hobby": "La musique",
+      "icon_uri": "https://static.wikia.nocookie.net/animalcrossing/images/d/d0/NH-VillagerFace-%C3%89toile.png/",
+      "image_uri": "https://static.wikia.nocookie.net/animalcrossing/images/3/3b/NH-%C3%89toile_poster.png/",
+      "bubble-color": "#c1adff",
+      "text-color": "#fffce9",
+      "catch-translations": {
+        "catch-EUfr": "mohair"
+      },
+      "house": "https://dodo.ac/np/images/thumb/7/7c/House_of_%C3%89toile_NH_Model.png/600px-House_of_%C3%89toile_NH_Model.png",
+      "colors": "aqua & rose"
+    },
+    {
+      "id": 393,
+      "name": {
+        "name-USen": "Chelsea",
+        "name-EUfr": "Chelsea"
+      },
+      "personality": "Normale",
+      "birthday": "18/01",
+      "species": "Biche",
+      "gender": "Female",
+      "hobby": "Jouer",
+      "icon_uri": "https://dodo.ac/np/images/4/40/Chelsea_NH_Villager_Icon.png",
+      "image_uri": "https://static.wikia.nocookie.net/animalcrossing/images/d/d8/Poster_Chelsea.png/revision/latest/scale-to-width-down/250?cb=20210415225315&path-prefix=fr",
+      "bubble-color": "#feacaa",
+      "text-color": "#fffce9",
+      "catch-translations": {
+        "catch-EUfr": "bibiche"
+      },
+      "house": "https://dodo.ac/np/images/a/a8/House_of_Chelsea_NH_Model.png",
+      "colors": "Rose & Blanc"
+    },
+    {
+      "id": 394,
+      "name": {
+        "name-USen": "Marty",
+        "name-EUfr": "Marty"
+      },
+      "personality": "Paresseux",
+      "birthday": "16/04",
+      "species": "Ourson",
+      "gender": "Male",
+      "hobby": "Jouer",
+      "icon_uri": "https://dodo.ac/np/images/0/08/Marty_NH_Villager_Icon.png",
+      "image_uri": "https://acnhcdn.com/latest/NpcBromide/NpcNmlCbr18.png",
+      "bubble-color": "#f3e67d",
+      "text-color": "#7f4f19",
+      "catch-translations": {
+        "catch-EUfr": "pom pom"
+      },
+      "house": "https://dodo.ac/np/images/thumb/c/c3/House_of_Marty_NH_Model.png/360px-House_of_Marty_NH_Model.png",
+      "colors": "Marron & Jaune"
+    },
+    {
+      "id": 395,
+      "name": {
+        "name-USen": "Rilla",
+        "name-EUfr": "Rilla"
+      },
+      "personality": "Vive",
+      "birthday": "01/11",
+      "species": "Gorille",
+      "gender": "Female",
+      "hobby": "Fitness",
+      "icon_uri": "https://dodo.ac/np/images/b/bc/Rilla_NH_Villager_Icon.png",
+      "image_uri": "https://dodo.ac/np/images/9/9c/Rilla%27s_Poster_NH_Texture.png",
+      "bubble-color": "#fc2b32",
+      "text-color": "#fcdede",
+      "catch-translations": {
+        "catch-EUfr": "rorille"
+      },
+      "house": "https://dodo.ac/np/images/thumb/e/e8/House_of_Rilla_NH_Model.png/600px-House_of_Rilla_NH_Model.png",
+      "colors": "Rouge & Bleu"
+    },
+    {
+      "id": 396,
+      "name": {
+        "name-USen": "Toby",
+        "name-EUfr": "Toby"
+      },
+      "personality": "Chic",
+      "birthday": "10/07",
+      "species": "Lapin",
+      "gender": "Male",
+      "hobby": "Musique",
+      "icon_uri": "https://dodo.ac/np/images/1/12/Toby_NH_Villager_Icon.png",
+      "image_uri": "https://dodo.ac/np/images/b/ba/Toby%27s_Poster_NH_Texture.png",
+      "bubble-color": "#fae120",
+      "text-color": "#688e2c",
+      "catch-translations": {
+        "catch-EUfr": "kérocarot"
+      },
+      "house": "https://dodo.ac/np/images/thumb/a/ae/House_of_Toby_NH_Model.png/600px-House_of_Toby_NH_Model.png",
+      "colors": "Vert & Orange"
     }
   ]
