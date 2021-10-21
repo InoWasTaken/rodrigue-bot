@@ -1,10 +1,11 @@
+import datetime
 import discord
 from discord.embeds import Embed
 from discord.ext import commands
 import json
 import os
 
-RODRIGUE_TOKEN = os.getenv(RODRIGUE_TOKEN)
+RODRIGUE_TOKEN = os.getenv("RODRIGUE_TOKEN")
 
 bot = commands.Bot(command_prefix='!')
 f = open('villagers.json')
@@ -26,6 +27,7 @@ def find_villager(villager_name):
 
 @bot.command()
 async def hab(ctx, villager_name=None):
+    print(f"{datetime.datetime.now()} - !hab {villager_name} made by {ctx.author}")
     if villager_name is None:
         await ctx.send("Merci d'entrer le nom d'un habitant.")
         return
@@ -58,6 +60,7 @@ async def hab(ctx, villager_name=None):
 
 @bot.command()
 async def maison(ctx, villager_name=None):
+    print(f"{datetime.datetime.now()} - !maison {villager_name} made by {ctx.author}")
     if villager_name is None:
         await ctx.send("Merci d'entrer le nom d'un habitant.")
         return
