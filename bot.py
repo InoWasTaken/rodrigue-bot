@@ -1,7 +1,10 @@
 import discord
+from discord.embeds import Embed
 from discord.ext import commands
 import json
-from discord.embeds import Embed
+import os
+
+RODRIGUE_TOKEN = os.getenv(RODRIGUE_TOKEN)
 
 bot = commands.Bot(command_prefix='!')
 f = open('villagers.json')
@@ -70,4 +73,4 @@ async def maison(ctx, villager_name=None):
     embed.set_image(url=villager["house"])
     await ctx.send(embed=embed)
 
-bot.run('ODM0MTM1NjA5MTQ4NzAyODAx.YH8fUg.qAWItbGJrHhIKw67VHlPerLhuCo')
+bot.run(RODRIGUE_TOKEN)
