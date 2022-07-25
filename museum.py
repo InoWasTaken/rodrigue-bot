@@ -33,8 +33,6 @@ def get_fish(fish_name):
     embed.set_author(name=fish["name"]["name-EUfr"],
                      icon_url=fish['icon_uri'],)
     embed.set_image(url=fish["image_uri"])
-    embed.add_field(name="🇬🇧 Nom anglais",
-                    value=fish['name']['name-USen'], inline=False)
     embed.add_field(name="📍 Localisation",
                     value=fish["availability"]['location'], inline=True)
     embed.add_field(name="🕰️ Heure", value=hour, inline=True)
