@@ -4,6 +4,7 @@ from discord.embeds import Embed
 from discord.ext import commands
 import os
 from villagers import get_villager, get_house
+from museum import get_fish
 
 RODRIGUE_TOKEN = os.getenv("RODRIGUE_TOKEN")
 
@@ -33,5 +34,15 @@ async def maison(ctx, villager_name=None):
         await ctx.send(house)
     else:
         await ctx.send(embed=house)
+
+
+@bot.command()
+async def poisson(ctx, fish_name=None):
+    print(f"{datetime.datetime.now()} - !poisson {fish_name} made by {ctx.author} in {ctx.guild}")
+    fish = get_fish(fish_name)
+    if type(fish) == str:
+        await ctx.send(fish)
+    else:
+        await ctx.send(embed=fish)
 
 bot.run(RODRIGUE_TOKEN)

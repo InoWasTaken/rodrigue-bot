@@ -46,11 +46,9 @@ def get_villager(villager_name):
 def get_house(villager_name):
     if villager_name is None:
         return "Merci d'entrer le nom d'un habitant."
-        return
     villager = find_villager(villager_name)
     if villager is None:
         return "Habitant non reconnu."
-        return
     embed = Embed(
         colour=int(villager["bubble-color"][1:], base=16),
     )
