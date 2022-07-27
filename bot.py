@@ -4,7 +4,7 @@ from discord.embeds import Embed
 from discord.ext import commands
 import os
 from villagers import get_villager, get_house
-from museum import get_fish
+from museum import get_fish, get_bug
 
 RODRIGUE_TOKEN = os.getenv("RODRIGUE_TOKEN")
 
@@ -44,5 +44,15 @@ async def poisson(ctx, fish_name=None):
         await ctx.send(fish)
     else:
         await ctx.send(embed=fish)
+
+
+@bot.command()
+async def insecte(ctx, bug_name=None):
+    print(f"{datetime.datetime.now()} - !poisson {bug_name} made by {ctx.author} in {ctx.guild}")
+    bug = get_bug(bug_name)
+    if type(bug) == str:
+        await ctx.send(bug)
+    else:
+        await ctx.send(embed=bug)
 
 bot.run(RODRIGUE_TOKEN)
