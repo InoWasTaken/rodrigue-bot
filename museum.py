@@ -7,8 +7,13 @@ f.close()
 
 
 def find_fish(fish_name):
+    names = [fish_name.lower()]
+    if " " in fish_name:
+        names.append(fish_name.lower().replace(" ", "-"))
+    elif "-" in fish_name:
+        names.append(fish_name.lower().replace("-", " "))
     for fish in fishes:
-        if fish_name.lower() == fish["name"]["name-EUfr"].lower():
+        if fish["name"]["name-EUfr"].lower() in names:
             return fish
     return None
 
