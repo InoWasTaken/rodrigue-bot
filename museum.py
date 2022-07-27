@@ -30,7 +30,7 @@ def get_fish(fish_name):
     embed = Embed(
         colour=0xbeb360,
     )
-    embed.set_author(name=fish["name"]["name-EUfr"],
+    embed.set_author(name=fish["name"]["name-EUfr"].title(),
                      icon_url=fish['icon_uri'],)
     embed.set_image(url=fish["image_uri"])
     embed.add_field(name="📍 Localisation",
@@ -40,7 +40,7 @@ def get_fish(fish_name):
                     value=fish["availability"]['rarity'], inline=True)
     embed.add_field(name="⚫ Ombre",
                     value=fish["shadow"], inline=True)
-    embed.add_field(name="🌍 Période", value=month, inline=True)
+    embed.add_field(name="🌍 Mois", value=month, inline=True)
     embed.add_field(name="🪙 Prix",
                     value=f"Boutique: {fish['price']} clochettes\nPollux: {fish['price-cj']} clochettes", inline=True)
     return embed
