@@ -411,15 +411,15 @@
     "id": 9,
     "file-name": "bea01",
     "name": {
-      "name-USen": "rosey",
-      "name-EUen": "rosey",
+      "name-USen": "Pinky",
+      "name-EUen": "Pinky",
       "name-EUde": "Pia",
       "name-EUes": "Violeta",
       "name-USes": "Violeta",
       "name-EUfr": "Rosine",
       "name-USfr": "Rosine",
-      "name-EUit": "rosey",
-      "name-EUnl": "rosey",
+      "name-EUit": "Pinky",
+      "name-EUnl": "Pinky",
       "name-CNzh": "丹丹",
       "name-TWzh": "丹丹",
       "name-JPja": "タンタン",
@@ -455,7 +455,7 @@
       "catch-KRko": "와",
       "catch-EUru": "ну и ну"
     },
-    "house": "https://acnhcdn.com/drivesync/render/houses/bea01_20_rosey.png",
+    "house": "https://acnhcdn.com/drivesync/render/houses/bea01_20_Pinky.png",
     "colors": "rouge & rose"
   },
   {
